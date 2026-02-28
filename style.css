@@ -110,7 +110,9 @@ height: auto;
 }
 
 .body button:hover {
-    background-color: #0e68f8;
+    background-color: #ffffff;
+    color: #0e68f8;
+    border-color: #0e68f8;
 }
 
 /* .gallery Starts from here */
@@ -219,7 +221,9 @@ height: auto;
 }
 
 .button button:hover {
-    background-color: #065be4;
+    background-color: #ffffff;
+    color: #3882f6;
+    border-color: #5a99ff;;
 }
 .footer {
     padding: 20px;
