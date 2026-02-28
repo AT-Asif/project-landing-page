@@ -78,3 +78,40 @@ border-style: none;
 .body button:hover {
     background-color: #0e68f8;
 }
+
+/* .gallery Starts from here */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+.photos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;              
+    max-width: 1200px; 
+    padding: 10px;
+}
+
+.img{
+    flex: 1 1 100px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img img {
+  width: 100%;            
+  height: auto;           
+  border-radius: 8px;
+}
+
+.img p {
+   text-align: center;
+}
+
